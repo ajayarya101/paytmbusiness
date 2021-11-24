@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/paytm/static/css/main.962b1652.chunk.css",
+    "main.js": "/paytm/static/js/main.0044e3ca.chunk.js",
+    "main.js.map": "/paytm/static/js/main.0044e3ca.chunk.js.map",
+    "runtime-main.js": "/paytm/static/js/runtime-main.5296c2ee.js",
+    "runtime-main.js.map": "/paytm/static/js/runtime-main.5296c2ee.js.map",
+    "static/css/2.0c9a27f9.chunk.css": "/paytm/static/css/2.0c9a27f9.chunk.css",
+    "static/js/2.0436bb6d.chunk.js": "/paytm/static/js/2.0436bb6d.chunk.js",
+    "static/js/2.0436bb6d.chunk.js.map": "/paytm/static/js/2.0436bb6d.chunk.js.map",
+    "static/js/3.312d8c87.chunk.js": "/paytm/static/js/3.312d8c87.chunk.js",
+    "static/js/3.312d8c87.chunk.js.map": "/paytm/static/js/3.312d8c87.chunk.js.map",
+    "index.html": "/paytm/index.html",
+    "static/css/2.0c9a27f9.chunk.css.map": "/paytm/static/css/2.0c9a27f9.chunk.css.map",
+    "static/css/main.962b1652.chunk.css.map": "/paytm/static/css/main.962b1652.chunk.css.map",
+    "static/js/2.0436bb6d.chunk.js.LICENSE.txt": "/paytm/static/js/2.0436bb6d.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.5296c2ee.js",
+    "static/css/2.0c9a27f9.chunk.css",
+    "static/js/2.0436bb6d.chunk.js",
+    "static/css/main.962b1652.chunk.css",
+    "static/js/main.0044e3ca.chunk.js"
+  ]
+}
