@@ -566,7 +566,7 @@ to plan the next campaigns based on cluster performance.</h6>
                                                 <h4 className="font-20 font-weight-medium mb-1">Orchid Hotels</h4>
                                                 <p className="font-15 font-weight-semi text-black-50 mb-0">Mr. Vishal Kamat  <br />Director, The Orchid Hotel</p>
                                             </div>
-                                        </div>
+                                        </div>  
                                         <div className="w-100 mt-3">
                                             <p className="font-15 font-weight-bold lh-14 text-medium-grey">MobiQuest has helped us to have an insight and optimum utilization of our existing vast database .</p>
                                             <a href="/" className="font-20 font-weight-bold text_primary">Read More</a>
