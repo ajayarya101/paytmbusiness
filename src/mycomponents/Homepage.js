@@ -17,7 +17,7 @@ export const Homepage = () => {
                         <div className="col-md-6">
                             <div className="custom_banner">
                                 <div className="custom_banner_left">
-                                    <img src="images/paytm_mloyal.jpg" className="banner_logo" alt="" />
+                                    <img src={process.env.PUBLIC_URL + "/images/paytm_mloyal.jpg"} className="banner_logo" alt="" />
                                     <h3 className="custom_banner_heading">Deliver Highly Personalised Customer Experiences and drive business growth</h3>
                                     <p>Leverage theworld’s first comprehensive omnichannel loyaltysales &amp; marketing platform to unlock growth &amp; build closer relationships with your customers to drive much <strong>higher repeat sales.</strong></p>
 
@@ -30,7 +30,7 @@ export const Homepage = () => {
                             </div>
                         </div>
                         <div className="col-md-6 mt-4 mt-md-0">
-                            <img src="images/custom_banner_img.jpg" className="img-fluid" alt="" />
+                            <img src={process.env.PUBLIC_URL +"/images/custom_banner_img.jpg"} className="img-fluid" alt="" />
                         </div>
                     </div>
                 </div>
@@ -45,28 +45,28 @@ export const Homepage = () => {
                             <div className="d-flex flex-column align-items-center">
                                 <div className="careThumbs d-flex align-items-center justify-content-between flex-wrap w-100">
                                     <div className="careThumb bgc_1 d-flex align-items-center justify-content-center flex-column">
-                                        <div className="careIcon"><img src="images/aquire_icon.png" class="img-fluid" alt="" /></div>
+                                        <div className="careIcon"><img src={process.env.PUBLIC_URL +"/images/aquire_icon.png"} className="img-fluid" alt="" /></div>
                                         <span className="caretext">Acquire</span>
                                     </div>
                                     <div className="careThumb bgc_2 d-flex align-items-center justify-content-center flex-column">
-                                        <div className="careIcon"><img src="images/engage_icon.png" class="img-fluid" alt="" /></div>
+                                        <div className="careIcon"><img src={process.env.PUBLIC_URL +"/images/engage_icon.png"} className="img-fluid" alt="" /></div>
                                         <span className="caretext">Engage</span>
                                     </div>
                                     <div className="careThumb bgc_1 d-flex align-items-center justify-content-center flex-column">
-                                        <div className="careIcon"><img src="images/rewards_icon.png" class="img-fluid" alt="" /></div>
+                                        <div className="careIcon"><img src={process.env.PUBLIC_URL +"/images/rewards_icon.png"} className="img-fluid" alt="" /></div>
                                         <span className="caretext">Reward</span>
                                     </div>
                                     <div className="careThumb bgc_2 d-flex align-items-center justify-content-center flex-column">
-                                        <div className="careIcon"><img src="images/retain_icon.png" class="img-fluid" alt="" /></div>
+                                        <div className="careIcon"><img src={process.env.PUBLIC_URL +"/images/retain_icon.png"} className="img-fluid" alt="" /></div>
                                         <span className="caretext">Retain</span>
                                     </div>
                                     <div className="careThumb bgc_1 d-flex align-items-center justify-content-center flex-column">
-                                        <div className="careIcon"><img src="images/repeat_icon.png" class="img-fluid" alt="" /></div>
+                                        <div className="careIcon"><img src={process.env.PUBLIC_URL +"/images/repeat_icon.png"} className="img-fluid" alt="" /></div>
                                         <span className="caretext">Repeat</span>
                                     </div>
                                 </div>
                                 <div className="careImg">
-                                    <img src="images/care_image.png" class="img-fluid" alt="" />
+                                    <img src="images/care_image.png" className="img-fluid" alt="" />
                                 </div>
                                 <div className="jumbotron careJumbotron">
                                     <div className="d-flex justify-content-center">
@@ -103,7 +103,7 @@ export const Homepage = () => {
                             </div>
                         </div>
                         <div className="col-md-6 mb-5 pl-lg-5">
-                            <img src="images/loyalty_img.jpg" className="img-fluid" alt="" />
+                            <img src={process.env.PUBLIC_URL +"/images/loyalty_img.jpg"} className="img-fluid" alt="" />
                         </div>
                     </div>
                     <div className="mt-5">
@@ -181,7 +181,7 @@ to plan the next campaigns based on cluster performance.</h6>
                             </div>
                         </div>
                         <div className="col-md-6 mb-5">
-                            <img src="images/cec_img.jpg" className="img-fluid" alt="" />
+                            <img src={process.env.PUBLIC_URL +"/images/cec_img.jpg"} className="img-fluid" alt="" />
                         </div>
                     </div>
                     <div className="mt-5">
@@ -234,7 +234,7 @@ to plan the next campaigns based on cluster performance.</h6>
                             </div>
                         </div>
                         <div className="col-md-5 mb-5">
-                            <img src="images/crc_img.jpg" className="img-fluid" alt="" />
+                            <img src={process.env.PUBLIC_URL +"/images/crc_img.jpg"} className="img-fluid" alt="" />
                         </div>
                     </div>
                     <div className="mt-5">
@@ -292,9 +292,9 @@ to plan the next campaigns based on cluster performance.</h6>
                     <div className="d-flex justify-content-between align-items-center mt-5 flex-wrap">                        
                         <div className="col-md-7 mb-5">
                             <div className="videoThumb">
-                                <img src="images/videoThumb.jpg" className="img-fluid" alt="" />
+                                <img src={process.env.PUBLIC_URL +"/images/videoThumb.jpg"} className="img-fluid" alt="" />
                                 <a href="#" className="playBtn">
-                                    <img src="images/playBtn.png" className="img-fluid" alt="" />
+                                    <img src={process.env.PUBLIC_URL +"/images/playBtn.png"} className="img-fluid" alt="" />
                                 </a>
                             </div>
                         </div>
@@ -324,42 +324,42 @@ to plan the next campaigns based on cluster performance.</h6>
                 <div className="d-flex align-items-start justify-content-between flex-wrap mt-5">
                     <div className="col-md-4 col-sm-6 col-12 mb-4">
                         <div className="paytmIcon">
-                            <img src="images/trustedLoyaltyPartner.png" className="img-fluid" alt="" />
+                            <img src={process.env.PUBLIC_URL +"/images/trustedLoyaltyPartner.png"} className="img-fluid" alt="" />
                         </div>
                         <h3 className="font-20 font-weight-medium">Trusted Loyalty Partner</h3>
                         <p className="font-15 font-weight-semi mt-md-4">100 Million+ Loyalty members, 300+ Brands Engaged & ₹161 Billion+ Loyalty Sales</p>
                     </div>
                     <div className="col-md-4 col-sm-6 col-12 mb-4">
                         <div className="paytmIcon">
-                            <img src="images/onePlateform.png" className="img-fluid" alt="" />
+                            <img src={process.env.PUBLIC_URL +"/images/onePlateform.png"} className="img-fluid" alt="" />
                         </div>
                         <h3 className="font-20 font-weight-medium">One Platform - Multiple Uses</h3>
                         <p className="font-15 font-weight-semi mt-md-4">Drive end-to-end customer engagement from one powerful dashboard.</p>
                     </div>
                     <div className="col-md-4 col-sm-6 col-12 mb-4">
                         <div className="paytmIcon">
-                            <img src="images/scaleUp.png" className="img-fluid" alt="" />
+                            <img src={process.env.PUBLIC_URL +"/images/scaleUp.png"} className="img-fluid" alt="" />
                         </div>
                         <h3 className="font-20 font-weight-medium">Scale Up with the Paytm App</h3>
                         <p className="font-15 font-weight-semi mt-md-4">Launch your Loyalty Program on the Paytm App and increase reach, nrolments, redemptions and a host of benefits to your customers & influencers </p>
                     </div>
                     <div className="col-md-4 col-sm-6 col-12 mb-4">
                         <div className="paytmIcon">
-                            <img src="images/pos_integration.png" className="img-fluid" alt="" />
+                            <img src={process.env.PUBLIC_URL +"/images/pos_integration.png"} className="img-fluid" alt="" />
                         </div>
                         <h3 className="font-20 font-weight-medium">Hasslefree POS Integration</h3>
                         <p className="font-15 font-weight-semi mt-md-4">Supports quick & easy integration with a wide range of billing systems.</p>
                     </div>
                     <div className="col-md-4 col-sm-6 col-12 mb-4">
                         <div className="paytmIcon">
-                            <img src="images/payWithPoints.png" className="img-fluid" alt="" />
+                            <img src={process.env.PUBLIC_URL +"/images/payWithPoints.png"} className="img-fluid" alt="" />
                         </div>
                         <h3 className="font-20 font-weight-medium">Let Customers Pay With Points</h3>
                         <p className="font-15 font-weight-semi mt-md-4">Let customers use their mobile phones to earn & burn points without using cash with the Paytm App.</p>
                     </div>
                     <div className="col-md-4 col-sm-6 col-12 mb-4">
                         <div className="paytmIcon">
-                            <img src="images/increaseROI.png" className="img-fluid" alt="" />
+                            <img src={process.env.PUBLIC_URL +"/images/increaseROI.png"} className="img-fluid" alt="" />
                         </div>
                         <h3 className="font-20 font-weight-medium">Increase ROI for your Business</h3>
                         <p className="font-15 font-weight-semi mt-md-4">Gain valuable insights for faster decision-making & reduce operating costs.</p>
@@ -379,35 +379,35 @@ to plan the next campaigns based on cluster performance.</h6>
                     </div>                                        
                     <div className="d-flex justify-content-between align-items-start mt-5 flex-wrap">
                         <div className="col-md-3 col-sm-4 mb-5">
-                            <img src="images/fnb.png" alt="" className="img-fluid" />
+                            <img src={process.env.PUBLIC_URL +"/images/fnb.png"} alt="" className="img-fluid" />
                             <h3 className="font-weight-medium font-20 mt-3 text-center">Food & Beverage</h3>                            
                         </div>
                         <div className="col-md-3 col-sm-4 mb-5">
-                            <img src="images/luxury.png" alt="" className="img-fluid" />
+                            <img src={process.env.PUBLIC_URL +"/images/luxury.png"} alt="" className="img-fluid" />
                             <h3 className="font-weight-medium font-20 mt-3 text-center">Luxury</h3>                            
                         </div>
                         <div className="col-md-3 col-sm-4 mb-5">
-                            <img src="images/fashion.png" alt="" className="img-fluid" />
+                            <img src={process.env.PUBLIC_URL +"/images/fashion.png"} alt="" className="img-fluid" />
                             <h3 className="font-weight-medium font-20 mt-3 text-center">Fashion & LFR</h3>                            
                         </div>
                         <div className="col-md-3 col-sm-4 mb-5">
-                            <img src="images/healthWellness.png" alt="" className="img-fluid" />
+                            <img src={process.env.PUBLIC_URL +"/images/healthWellness.png"} alt="" className="img-fluid" />
                             <h3 className="font-weight-medium font-20 mt-3 text-center">Health & Wellness</h3>                            
                         </div>
                         <div className="col-md-3 col-sm-4 mb-5">
-                            <img src="images/electronics.png" alt="" className="img-fluid" />
+                            <img src={process.env.PUBLIC_URL +"/images/electronics.png"} alt="" className="img-fluid" />
                             <h3 className="font-weight-medium font-20 mt-3 text-center">Electronics</h3>                            
                         </div>
                         <div className="col-md-3 col-sm-4 mb-5">
-                            <img src="images/entertainment.png" alt="" className="img-fluid" />
+                            <img src={process.env.PUBLIC_URL +"/images/entertainment.png"} alt="" className="img-fluid" />
                             <h3 className="font-weight-medium font-20 mt-3 text-center">Entertainment</h3>                            
                         </div>
                         <div className="col-md-3 col-sm-4 mb-5">
-                            <img src="images/mall.png" alt="" className="img-fluid" />
+                            <img src={process.env.PUBLIC_URL +"/images/mall.png"} alt="" className="img-fluid" />
                             <h3 className="font-weight-medium font-20 mt-3 text-center">Mall</h3>                            
                         </div>
                         <div className="col-md-3 col-sm-4 mb-5">
-                            <img src="images/bfsi.png" alt="" className="img-fluid" />
+                            <img src={process.env.PUBLIC_URL +"/images/bfsi.png"} alt="" className="img-fluid" />
                             <h3 className="font-weight-medium font-20 mt-3 text-center">BFSI</h3>                            
                         </div>                        
                     </div>
@@ -418,19 +418,19 @@ to plan the next campaigns based on cluster performance.</h6>
                     </div>                                        
                     <div className="d-flex justify-content-between align-items-start mt-5 flex-wrap">
                         <div className="col-md-3 col-sm-4 mb-5">
-                            <img src="images/dealers.png" alt="" className="img-fluid" />
+                            <img src={process.env.PUBLIC_URL +"/images/dealers.png"} alt="" className="img-fluid" />
                             <h3 className="font-weight-medium font-20 mt-3 text-center">Dealers</h3>                            
                         </div>
                         <div className="col-md-3 col-sm-4 mb-5">
-                            <img src="images/influencers.png" alt="" className="img-fluid" />
+                            <img src={process.env.PUBLIC_URL +"/images/influencers.png"} alt="" className="img-fluid" />
                             <h3 className="font-weight-medium font-20 mt-3 text-center">Influencers</h3>                            
                         </div>
                         <div className="col-md-3 col-sm-4 mb-5">
-                            <img src="images/resellers.png" alt="" className="img-fluid" />
+                            <img src={process.env.PUBLIC_URL +"/images/resellers.png"} alt="" className="img-fluid" />
                             <h3 className="font-weight-medium font-20 mt-3 text-center">Resellers</h3>                            
                         </div>
                         <div className="col-md-3 col-sm-4 mb-5">
-                            <img src="images/salesRepresentatives.png" alt="" className="img-fluid" />
+                            <img src={process.env.PUBLIC_URL +"/images/salesRepresentatives.png"} alt="" className="img-fluid" />
                             <h3 className="font-weight-medium font-20 mt-3 text-center">Sales Representatives / Employees</h3>                            
                         </div>                        
                     </div>
@@ -456,56 +456,56 @@ to plan the next campaigns based on cluster performance.</h6>
                     <div className="d-flex align-items-start justify-content-start flex-wrap mt-5">
                         <div className="col-md-4 col-sm-6 col-12 mb-5">
                             <div className="awardLogo">
-                                <img src="images/aimialargelogo.png" className="img-fluid" alt="" />
+                                <img src={process.env.PUBLIC_URL +"/images/aimialargelogo.png"} className="img-fluid" alt="" />
                             </div>
                             <h4 className="font-20 font-weight-medium">Innovation in Loyalty</h4>
                             <h3 className="font-26 font-weight-semi mt-md-4 text-dark_grey">AIMIA Loyalty Summit</h3>
                         </div>
                         <div className="col-md-4 col-sm-6 col-12 mb-5">
                             <div className="awardLogo">
-                                <img src="images/indian_retail_logo.png" className="img-fluid" alt="" />
+                                <img src={process.env.PUBLIC_URL +"/images/indian_retail_logo.png"} className="img-fluid" alt="" />
                             </div>
                             <h4 className="font-20 font-weight-medium">Best CRM Technology</h4>
                             <h3 className="font-26 font-weight-semi mt-md-4 text-dark_grey">India Retail Award</h3>
                         </div>
                         <div className="col-md-4 col-sm-6 col-12 mb-5">
                             <div className="awardLogo">
-                                <img src="images/Amity-Global-Institute-logo.png" className="img-fluid" alt="" />
+                                <img src={process.env.PUBLIC_URL +"/images/Amity-Global-Institute-logo.png"} className="img-fluid" alt="" />
                             </div>
                             <h4 className="font-20 font-weight-medium">Amity Global Leadership</h4>
                             <h3 className="font-26 font-weight-semi mt-md-4 text-dark_grey">Amity Global </h3>
                         </div>
                         <div className="col-md-4 col-sm-6 col-12 mb-5">
                             <div className="awardLogo">
-                                <img src="images/aegisGrahambell.png" className="img-fluid" alt="" />
+                                <img src={process.env.PUBLIC_URL +"/images/aegisGrahambell.png"} className="img-fluid" alt="" />
                             </div>
                             <h4 className="font-20 font-weight-medium">Innovation in Mobile app for Enterprises</h4>
                             <h3 className="font-26 font-weight-semi mt-md-4 text-dark_grey">Aegis Graham Bell</h3>
                         </div>
                         <div className="col-md-4 col-sm-6 col-12 mb-5">
                             <div className="awardLogo">
-                                <img src="images/student_information_system_indira_international_innovation_logo.png" className="img-fluid" alt="" />
+                                <img src={process.env.PUBLIC_URL +"/images/student_information_system_indira_international_innovation_logo.png"} className="img-fluid" alt="" />
                             </div>
                             <h4 className="font-20 font-weight-medium">Entrepreneurship Award</h4>
                             <h3 className="font-26 font-weight-semi mt-md-4 text-dark_grey">Indira International Innovation</h3>
                         </div>
                         <div className="col-md-4 col-sm-6 col-12 mb-5">
                             <div className="awardLogo">
-                                <img src="images/loyaltysummit.png" className="img-fluid" alt="" />
+                                <img src={process.env.PUBLIC_URL +"/images/loyaltysummit.png"} className="img-fluid" alt="" />
                             </div>
                             <h4 className="font-20 font-weight-medium">Best Customer Loyalty</h4>
                             <h3 className="font-26 font-weight-semi mt-md-4 text-dark_grey">Customer Loyalty Summit</h3>
                         </div> 
                         <div className="col-md-4 col-sm-6 col-12 mb-5">
                             <div className="awardLogo">
-                                <img src="images/CIOoulook-logo.png" className="img-fluid" alt="" />
+                                <img src={process.env.PUBLIC_URL +"/images/CIOoulook-logo.png"} className="img-fluid" alt="" />
                             </div>
                             <h4 className="font-20 font-weight-medium">Top 25 Big Company</h4>
                             <h3 className="font-26 font-weight-semi mt-md-4 text-dark_grey">CIO Outlook Asia Pacific</h3>
                         </div> 
                         <div className="col-md-4 col-sm-6 col-12 mb-5">
                             <div className="awardLogo">
-                                <img src="images/star-retailer-logo.png" className="img-fluid" alt="" />
+                                <img src={process.env.PUBLIC_URL +"/images/star-retailer-logo.png"} className="img-fluid" alt="" />
                             </div>
                             <h4 className="font-20 font-weight-medium">Best Loyalty Solution Award</h4>
                             <h3 className="font-26 font-weight-semi mt-md-4 text-dark_grey">Star Retailer Award</h3>
@@ -530,7 +530,7 @@ to plan the next campaigns based on cluster performance.</h6>
                                     <div className='testimonial_item bg-white'>
                                         <div className="d-flex align-items-center justify-content-start">
                                             <div className="testimonial_logo mr-3">
-                                                <img src="images/newU.png" className="img-fluid" alt="" />
+                                                <img src={process.env.PUBLIC_URL +"/images/newU.png"} className="img-fluid" alt="" />
                                             </div>
                                             <div className="testimonial_content">
                                                 <h4 className="font-20 font-weight-medium mb-1">New U</h4>
@@ -545,7 +545,7 @@ to plan the next campaigns based on cluster performance.</h6>
                                     <div className='testimonial_item bg-white'>
                                         <div className="d-flex align-items-center justify-content-start">
                                             <div className="testimonial_logo mr-3">
-                                                <img src="images/Inc5.png" className="img-fluid" alt="" />
+                                                <img src={process.env.PUBLIC_URL +"/images/Inc5.png"} className="img-fluid" alt="" />
                                             </div>
                                             <div className="testimonial_content">
                                                 <h4 className="font-20 font-weight-medium mb-1">Inc.5 Shoes</h4>
@@ -560,7 +560,7 @@ to plan the next campaigns based on cluster performance.</h6>
                                     <div className='testimonial_item bg-white'>
                                         <div className="d-flex align-items-center justify-content-start">
                                             <div className="testimonial_logo mr-3">
-                                                <img src="images/orchid.png" className="img-fluid" alt="" />
+                                                <img src={process.env.PUBLIC_URL +"/images/orchid.png"} className="img-fluid" alt="" />
                                             </div>
                                             <div className="testimonial_content">
                                                 <h4 className="font-20 font-weight-medium mb-1">Orchid Hotels</h4>
@@ -577,6 +577,26 @@ to plan the next campaigns based on cluster performance.</h6>
                         </div> 
                     </div>                    
                 </div>
+            </section>
+
+            <section className="activation py-5">
+                    <div className="container mt-4 mb-3">
+                        <div className="row justify-content-center justify-content-between">
+                            <div className="col-md-5 col-sm-12">
+                                <img src={process.env.PUBLIC_URL +"/images/activationImg.png"} className="img-fluid" alt="" />
+                            </div>
+                            <div className="col-md-6">
+                                <h3 className="font-36 font-weight-medium mt-3 mb-4 text-left text-white">Start The Next Chapter In Your Growth with Paytm-m’Loyal™</h3>
+                                <p className="text-white text-left font-weight-medium font-17">You can use your existing Paytm account to request activation ofthe Paytm-m'Loyal Platform</p>
+                                <div className="custom_b_btns mt-5">
+                                <a href="#" className="bg-white text-dark">
+                                    <span>Request Activation</span>
+                                </a>
+                            </div>
+
+                            </div>
+                        </div> 
+                    </div>
             </section>
 
 

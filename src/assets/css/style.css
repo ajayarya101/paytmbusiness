@@ -238,6 +238,13 @@
 .testimonial_logo {
     max-width: 81px;
 }
+.activation {
+    background: url(../images/activationBg.png) no-repeat 10% 0, linear-gradient(127.11deg, #0085FE 0.45%, #00C6F0 99.14%);
+    /* background-image: ;
+    background-repeat: no-repeat;
+    background-position: top 20%;
+    background-size: contain; */
+}
 @media screen and (max-width:992px) {
     .custom_banner_heading {
         font-size: 30px;
