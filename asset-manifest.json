@@ -1,26 +1,26 @@
 {
   "files": {
-    "main.css": "/paytmbusiness/static/css/main.17906adc.chunk.css",
-    "main.js": "/paytmbusiness/static/js/main.75d3d1ca.chunk.js",
-    "main.js.map": "/paytmbusiness/static/js/main.75d3d1ca.chunk.js.map",
-    "runtime-main.js": "/paytmbusiness/static/js/runtime-main.b8ffaa11.js",
-    "runtime-main.js.map": "/paytmbusiness/static/js/runtime-main.b8ffaa11.js.map",
+    "main.css": "/paytmbusiness/static/css/main.860b8d92.chunk.css",
+    "main.js": "/paytmbusiness/static/js/main.ff61d740.chunk.js",
+    "main.js.map": "/paytmbusiness/static/js/main.ff61d740.chunk.js.map",
+    "runtime-main.js": "/paytmbusiness/static/js/runtime-main.9e252eda.js",
+    "runtime-main.js.map": "/paytmbusiness/static/js/runtime-main.9e252eda.js.map",
     "static/css/2.0c9a27f9.chunk.css": "/paytmbusiness/static/css/2.0c9a27f9.chunk.css",
-    "static/js/2.81a571d4.chunk.js": "/paytmbusiness/static/js/2.81a571d4.chunk.js",
-    "static/js/2.81a571d4.chunk.js.map": "/paytmbusiness/static/js/2.81a571d4.chunk.js.map",
-    "static/js/3.693fbc1f.chunk.js": "/paytmbusiness/static/js/3.693fbc1f.chunk.js",
-    "static/js/3.693fbc1f.chunk.js.map": "/paytmbusiness/static/js/3.693fbc1f.chunk.js.map",
+    "static/js/2.bb57a43c.chunk.js": "/paytmbusiness/static/js/2.bb57a43c.chunk.js",
+    "static/js/2.bb57a43c.chunk.js.map": "/paytmbusiness/static/js/2.bb57a43c.chunk.js.map",
+    "static/js/3.17134381.chunk.js": "/paytmbusiness/static/js/3.17134381.chunk.js",
+    "static/js/3.17134381.chunk.js.map": "/paytmbusiness/static/js/3.17134381.chunk.js.map",
     "index.html": "/paytmbusiness/index.html",
     "static/css/2.0c9a27f9.chunk.css.map": "/paytmbusiness/static/css/2.0c9a27f9.chunk.css.map",
-    "static/css/main.17906adc.chunk.css.map": "/paytmbusiness/static/css/main.17906adc.chunk.css.map",
-    "static/js/2.81a571d4.chunk.js.LICENSE.txt": "/paytmbusiness/static/js/2.81a571d4.chunk.js.LICENSE.txt",
+    "static/css/main.860b8d92.chunk.css.map": "/paytmbusiness/static/css/main.860b8d92.chunk.css.map",
+    "static/js/2.bb57a43c.chunk.js.LICENSE.txt": "/paytmbusiness/static/js/2.bb57a43c.chunk.js.LICENSE.txt",
     "static/media/paytm_mloyal.b2105383.jpg": "/paytmbusiness/static/media/paytm_mloyal.b2105383.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.b8ffaa11.js",
+    "static/js/runtime-main.9e252eda.js",
     "static/css/2.0c9a27f9.chunk.css",
-    "static/js/2.81a571d4.chunk.js",
-    "static/css/main.17906adc.chunk.css",
-    "static/js/main.75d3d1ca.chunk.js"
+    "static/js/2.bb57a43c.chunk.js",
+    "static/css/main.860b8d92.chunk.css",
+    "static/js/main.ff61d740.chunk.js"
   ]
 }
